@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.WebMVC", "DistributedMediator.WebMVC\DistributedMediator.WebMVC.csproj", "{FA674EED-A108-4E7F-9B2F-589855F07317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.BackEndService.Wcf.Host", "DistributedMediator.BackEndService.Wcf.Host\DistributedMediator.BackEndService.Wcf.Host.csproj", "{CCDFA790-9D15-4933-891E-F568FBA69197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.BackEndService.WebAPI", "DistributedMediator.BackEndService.WebAPI\DistributedMediator.BackEndService.WebAPI.csproj", "{03CC1816-4D5C-4792-9551-9A6C5A4DFFC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.Requests", "DistributedMediator.Requests\DistributedMediator.Requests.csproj", "{8BC80D49-E1F5-4C67-B7BA-6234930E6F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.RequestHandlers", "DistributedMediator.RequestHandlers\DistributedMediator.RequestHandlers.csproj", "{78AA3F42-E7B7-4834-B15F-8204FCCB60E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.BackEndService.Nancy.Host", "DistributedMediator.BackEndService.Nancy.Host\DistributedMediator.BackEndService.Nancy.Host.csproj", "{5DEA5D09-C650-4534-8B5E-34A63A91AEB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.BackEndService.Owin.Host", "DistributedMediator.BackEndService.Owin.Host\DistributedMediator.BackEndService.Owin.Host.csproj", "{58DFC18B-DD80-4F3C-8364-EB47E04A2207}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE8FB52B-0406-4A86-BB62-4D2FC44C9A35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C3A00572-8D27-4BDC-A0A9-8D81187D8967}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedMediator.Dtos", "DistributedMediator.Dtos\DistributedMediator.Dtos.csproj", "{E09B1737-D3ED-46A7-9286-12A6ACAB7771}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA674EED-A108-4E7F-9B2F-589855F07317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA674EED-A108-4E7F-9B2F-589855F07317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA674EED-A108-4E7F-9B2F-589855F07317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA674EED-A108-4E7F-9B2F-589855F07317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDFA790-9D15-4933-891E-F568FBA69197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDFA790-9D15-4933-891E-F568FBA69197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDFA790-9D15-4933-891E-F568FBA69197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDFA790-9D15-4933-891E-F568FBA69197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CC1816-4D5C-4792-9551-9A6C5A4DFFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CC1816-4D5C-4792-9551-9A6C5A4DFFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CC1816-4D5C-4792-9551-9A6C5A4DFFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CC1816-4D5C-4792-9551-9A6C5A4DFFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC80D49-E1F5-4C67-B7BA-6234930E6F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC80D49-E1F5-4C67-B7BA-6234930E6F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC80D49-E1F5-4C67-B7BA-6234930E6F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC80D49-E1F5-4C67-B7BA-6234930E6F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AA3F42-E7B7-4834-B15F-8204FCCB60E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AA3F42-E7B7-4834-B15F-8204FCCB60E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AA3F42-E7B7-4834-B15F-8204FCCB60E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AA3F42-E7B7-4834-B15F-8204FCCB60E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEA5D09-C650-4534-8B5E-34A63A91AEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEA5D09-C650-4534-8B5E-34A63A91AEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEA5D09-C650-4534-8B5E-34A63A91AEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEA5D09-C650-4534-8B5E-34A63A91AEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DFC18B-DD80-4F3C-8364-EB47E04A2207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DFC18B-DD80-4F3C-8364-EB47E04A2207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DFC18B-DD80-4F3C-8364-EB47E04A2207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DFC18B-DD80-4F3C-8364-EB47E04A2207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09B1737-D3ED-46A7-9286-12A6ACAB7771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09B1737-D3ED-46A7-9286-12A6ACAB7771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09B1737-D3ED-46A7-9286-12A6ACAB7771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09B1737-D3ED-46A7-9286-12A6ACAB7771}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

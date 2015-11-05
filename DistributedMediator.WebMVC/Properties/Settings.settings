@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DistributedMediator.WebMVC.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BackEndServiceUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1337/requestHandler/request</Value>
+    </Setting>
+    <Setting Name="MediatorLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Local</Value>
+    </Setting>
+    <Setting Name="MediatorProtocol" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Http</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
